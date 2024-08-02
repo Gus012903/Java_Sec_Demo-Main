@@ -17,8 +17,6 @@
     <properties>
         <java.version>11</java.version>
         <sonar.host.url>http://172.18.0.3:9000</sonar.host.url>
-        <sonar.login>admin</sonar.login>
-        <sonar.password>admin12345</sonar.password>
         <sonar.login>sqp_a2fdab732736f08dd9f0cd6c903b26e4a5f0e111</sonar.login>
     </properties>
 
@@ -232,6 +230,10 @@
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.8.0.2131</version>
+                <configuration>
+                    <sonar.login>admin</sonar.login>
+                    <sonar.password>admin12345</sonar.password>
+                </configuration>
             </plugin>
             <!-- make container image -->
             <plugin>
