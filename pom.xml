@@ -228,12 +228,6 @@
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.9.1.2184</version>
-                <configuration>
-                    <sonar.host.url>http://localhost:9000</sonar.host.url>
-                    <sonar.login>admin</sonar.login>
-                    <sonar.password>admin12345</sonar.password>
-                    <sonar.login>sqp_c8d6ce5e8e9b8dc772f141f5f969135571f62e3a</sonar.login>
-                </configuration>
             </plugin>
             <!-- make container image -->
             <plugin>
