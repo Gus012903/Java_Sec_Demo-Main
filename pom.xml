@@ -227,7 +227,11 @@
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.9.1.2184</version>
+                <version>3.8.0.2131</version>
+                <configuration>
+                    <sonar.projectKey>spring-boot-demo</sonar.projectKey>
+                    <sonar.projectName>spring-boot-demo</sonar.projectName>
+                </configuration>
             </plugin>
             <!-- make container image -->
             <plugin>
